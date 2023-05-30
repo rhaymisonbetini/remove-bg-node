@@ -1,6 +1,6 @@
 # REMOVE BACKGROUND FOR NODE.JS
 
-Library for remove image background forr node and python
+Library for remove image background for node and python
 
 <p align="center">
    <img src="https://img.shields.io/bower/l/MI?style=flat-square">
@@ -47,13 +47,13 @@ npm install remove-bg-node
 Import the library on your system with
 
 ``` javascript
-const RemoveBackground = require('./index');
+const RemoveBackground = require('remove-bg-node');
 ```
 
 or
 
 ``` javascript
-import RemoveBackground from './index';
+import RemoveBackground from 'remove-bg-node';
 ```
 Now you must create an instance of your class.
 
@@ -67,7 +67,7 @@ full example
 ```javascript
 
 'use strict'
-const RemoveBackground = require('./index');
+const RemoveBackground = require('remove-bg-node');
 let rm = new RemoveBackground();
 let current = __dirname + '/teste/cristian.jpg';
 let save = __dirname + '/deploy/cristian.png';
