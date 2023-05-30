@@ -79,11 +79,11 @@ Result
 Before:
 
 <div align="center">
-  <img src="./assets/cristian.jpg" width="300" height="300"/>
+  <img src="https://github.com/rhaymisonbetini/remove-bg-node/blob/main/assets/cristian.jpg" width="300" height="300"/>
 </div>
 
 After
 
 <div align="center">
-  <img src="./assets/cristian.png" width="300" height="300"/>
+  <img src="https://github.com/rhaymisonbetini/remove-bg-node/blob/main/assets/cristian.png" width="300" height="300"/>
 </div>
