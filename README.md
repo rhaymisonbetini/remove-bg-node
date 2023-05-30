@@ -70,10 +70,12 @@ full example
 const RemoveBackground = require('remove-bg-node');
 let rm = new RemoveBackground();
 let current = __dirname + '/teste/cristian.jpg';
-let save = __dirname + '/deploy/cristian.png';
+let save = __dirname + '/deploy';
 await rm.asyncRemoveBackground(current, save)
 
 ```
+ps:A file with the same name will be generated.
+
 Result
 
 Before:
